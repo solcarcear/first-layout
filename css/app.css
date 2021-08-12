@@ -3,19 +3,58 @@
     margin: 0;
     box-sizing: border-box;
     font-size: 62.5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 header{
     background-color: #00a5ff;
     height: 10rem;
     width: 100%;
 }
-header figure img{
+.logo {
+    height: 8rem;
+    width: 9rem;    
+    display: inline-block;
+}
+.logo img{
     height: 8rem;
     width: 9rem;    
     margin: 1rem;
     border-radius: 2px;
 }
 
+.header-nav{
+    width: 60rem;
+    height: 3rem;
+    margin: 1rem;
+    border-radius: 2px;
+    position: absolute;
+    right: 0;
+    top: 5rem;
+    display: flex;
+    justify-content: flex-end;  
+}
+.header-nav_item{
+    display: inline-block;
+    width: 18rem;   
+    height: 100%;
+    margin: 0 0.25rem;
+    border-radius: 3px;
+    background-color:#00d7ff;
+
+}
+.header-nav_item_icon{
+    display: inline-block;
+}
+.header-nav_item_icon img{
+    width: 3rem;
+    height: 100%;
+    padding: 0.2rem;
+}
+.header-nav_item_text{
+    position: absolute;
+    font-size: 1rem;
+    text-align: right;
+}
 
 .color1 {color: #007dff;}
 .color2 {color: #00a5ff;}
