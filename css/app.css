@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+header{
+    background-color: #00a5ff;
+    height: 10rem;
+    width: 100%;
+}
+header figure img{
+    height: 8rem;
+    width: 9rem;    
+    margin: 1rem;
+    border-radius: 2px;
+}
+
+
+.color1 {color: #007dff;}
+.color2 {color: #00a5ff;}
+.color3 {color: #00d7ff;}
+.color4 {color: #07ffff;}
+.color5 {color: #c5ffff;}
