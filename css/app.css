@@ -66,11 +66,15 @@ header{
     margin: auto 0.2rem;
     
 }
-
+/* CONTAINER */
+.container{
+    width: 100%;
+    display: flex;
+}
 /* ASIDE */
 
 aside{
-    width: 20%;
+ 
     height: 81rem;
     background-color: #c5ffff;
     display: inline-block;
@@ -97,6 +101,13 @@ main{
     display: inline-block;
 
 }
+main img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
 /* FOOTER */
 footer{
     background-color: #00a5ff;
